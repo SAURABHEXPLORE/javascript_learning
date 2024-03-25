@@ -1,0 +1,29 @@
+$primary_color: black;
+$bg_color: red;
+$nav_bg_color: yellow;
+
+
+body {
+    background-color: yellow;
+}
+
+h1 {
+    color:  $bg_color;
+}
+
+h2 {
+    color:  $bg_color;
+}
+
+@mixin nagvani {
+    header {
+        background-color: $bg_color;
+
+        nav{
+            background-color: $nav_bg_color;
+            li {
+                color: $bg_color;
+            }
+        }
+    }
+}
